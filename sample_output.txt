@@ -1,0 +1,33 @@
+Training models...
+Logistic Regression training complete.
+Decision Tree training complete.
+Random Forest training complete.
+Gradient Boosting training complete.
+Support Vector Machine training complete.
+K-Nearest Neighbors training complete.
+Gaussian Naive Bayes training complete.
+
+Evaluating models...
+Logistic Regression evaluation complete.
+Decision Tree evaluation complete.
+Random Forest evaluation complete.
+Gradient Boosting evaluation complete.
+Support Vector Machine evaluation complete.
+K-Nearest Neighbors evaluation complete.
+Gaussian Naive Bayes evaluation complete.
+
+Model Performance Results:
+                    Model  Accuracy  Precision    Recall  F1-score
+0     Logistic Regression  0.814854   0.694839  0.461440  0.554583
+1           Decision Tree  0.798587   0.594482  0.609254  0.601777
+2           Random Forest  0.850385   0.738532  0.620823  0.674581
+3       Gradient Boosting  0.857128   0.777654  0.599400  0.676990
+4  Support Vector Machine  0.839576   0.748660  0.538560  0.626464
+5     K-Nearest Neighbors  0.823951   0.664282  0.596829  0.628752
+6    Gaussian Naive Bayes  0.797731   0.689097  0.346615  0.461231
+
+Best model: Gradient Boosting with accuracy 0.8571
+
+Sample-Input : {'age': 35, 'workclass': 'Private', 'fnlwgt': 200000, 'education': 'B-tech', 'educational-num': 13, 'marital-status': 'Married-civ-spouse', 'occupation': 'Exec-managerial', 'relationship': 'Husband', 'race': 'White', 'gender': 'Male', 'capital-gain': 0, 'capital-loss': 0, 'hours-per-week': 45, 'native-country': 'United-States'}
+
+Predicted Income Class: >50K
